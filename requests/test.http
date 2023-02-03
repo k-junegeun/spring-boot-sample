@@ -1,0 +1,12 @@
+GET http://localhost:8080/events
+Accept: application/json
+
+###
+
+
+POST http://localhost:8080/events
+Content-Type: application/x-www-form-urlencoded
+
+name=event-2&description=seun
+
+###
